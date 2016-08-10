@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C0443F31D403E8E0026298A /* UsersMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0443F21D403E8E0026298A /* UsersMapViewController.swift */; };
+		2C0443F51D4040270026298A /* UdacityUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0443F41D4040270026298A /* UdacityUser.swift */; };
+		2C0443F71D40431F0026298A /* UdacityUsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0443F61D40431F0026298A /* UdacityUsersModel.swift */; };
+		2C0443F91D40521F0026298A /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0443F81D40521F0026298A /* UsersListViewController.swift */; };
+		2C2CC67E1D46C3AE0063B135 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2CC67D1D46C3AE0063B135 /* CoreLocation.framework */; };
+		2C30C7341D470C6C000ADC52 /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C30C72F1D470C6C000ADC52 /* AccountKit.framework */; };
+		2C30C7351D470C6C000ADC52 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C30C7301D470C6C000ADC52 /* Bolts.framework */; };
+		2C30C7361D470C6C000ADC52 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C30C7311D470C6C000ADC52 /* FBSDKShareKit.framework */; };
+		2C30C7371D470C6C000ADC52 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C30C7321D470C6C000ADC52 /* FBSDKCoreKit.framework */; };
+		2C30C7381D470C6C000ADC52 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C30C7331D470C6C000ADC52 /* FBSDKLoginKit.framework */; };
+		2C4BC7141D3EB0A400E79C05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BC7131D3EB0A400E79C05 /* AppDelegate.swift */; };
+		2C4BC7191D3EB0A400E79C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BC7171D3EB0A400E79C05 /* Main.storyboard */; };
+		2C4BC71B1D3EB0A400E79C05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BC71A1D3EB0A400E79C05 /* Assets.xcassets */; };
+		2C4BC71E1D3EB0A400E79C05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BC71C1D3EB0A400E79C05 /* LaunchScreen.storyboard */; };
+		2C4BC7271D3EB16300E79C05 /* UdacityClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BC7261D3EB16300E79C05 /* UdacityClientManager.swift */; };
+		2C4BC7291D3EB21800E79C05 /* UdacityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BC7281D3EB21800E79C05 /* UdacityConstants.swift */; };
+		2C4BC72E1D3EE75700E79C05 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BC72D1D3EE75700E79C05 /* LoginViewController.swift */; };
+		2C6A2B6B1D418E3700B1C47A /* AddUserToParseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6A2B6A1D418E3700B1C47A /* AddUserToParseViewController.swift */; };
+		2C9C29801D46FB9500279452 /* AddUserToParseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C297F1D46FB9500279452 /* AddUserToParseDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C0443F21D403E8E0026298A /* UsersMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersMapViewController.swift; path = ViewControllers/UsersMapViewController.swift; sourceTree = "<group>"; };
+		2C0443F41D4040270026298A /* UdacityUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UdacityUser.swift; path = Model/UdacityUser.swift; sourceTree = "<group>"; };
+		2C0443F61D40431F0026298A /* UdacityUsersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UdacityUsersModel.swift; path = Model/UdacityUsersModel.swift; sourceTree = "<group>"; };
+		2C0443F81D40521F0026298A /* UsersListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersListViewController.swift; path = ViewControllers/UsersListViewController.swift; sourceTree = "<group>"; };
+		2C2CC67D1D46C3AE0063B135 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2C30C72F1D470C6C000ADC52 /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		2C30C7301D470C6C000ADC52 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2C30C7311D470C6C000ADC52 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		2C30C7321D470C6C000ADC52 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		2C30C7331D470C6C000ADC52 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		2C4BC7101D3EB0A400E79C05 /* On The Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "On The Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4BC7131D3EB0A400E79C05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C4BC7181D3EB0A400E79C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C4BC71A1D3EB0A400E79C05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C4BC71D1D3EB0A400E79C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C4BC71F1D3EB0A400E79C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4BC7261D3EB16300E79C05 /* UdacityClientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UdacityClientManager.swift; path = Model/UdacityClientManager.swift; sourceTree = "<group>"; };
+		2C4BC7281D3EB21800E79C05 /* UdacityConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UdacityConstants.swift; path = Model/UdacityConstants.swift; sourceTree = "<group>"; };
+		2C4BC72D1D3EE75700E79C05 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ViewControllers/LoginViewController.swift; sourceTree = "<group>"; };
+		2C6A2B6A1D418E3700B1C47A /* AddUserToParseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddUserToParseViewController.swift; path = ViewControllers/AddUserToParseViewController.swift; sourceTree = "<group>"; };
+		2C9C297F1D46FB9500279452 /* AddUserToParseDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddUserToParseDelegate.swift; path = ViewControllers/AddUserToParseDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C4BC70D1D3EB0A400E79C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C30C7371D470C6C000ADC52 /* FBSDKCoreKit.framework in Frameworks */,
+				2C30C7361D470C6C000ADC52 /* FBSDKShareKit.framework in Frameworks */,
+				2C30C7381D470C6C000ADC52 /* FBSDKLoginKit.framework in Frameworks */,
+				2C30C7351D470C6C000ADC52 /* Bolts.framework in Frameworks */,
+				2C2CC67E1D46C3AE0063B135 /* CoreLocation.framework in Frameworks */,
+				2C30C7341D470C6C000ADC52 /* AccountKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4BC7071D3EB0A400E79C05 = {
+			isa = PBXGroup;
+			children = (
+				2C4BC7121D3EB0A400E79C05 /* On The Map */,
+				2C4BC7111D3EB0A400E79C05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C4BC7111D3EB0A400E79C05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BC7101D3EB0A400E79C05 /* On The Map.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C4BC7121D3EB0A400E79C05 /* On The Map */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BC72F1D3FEEA800E79C05 /* Frameworks */,
+				2C4BC7251D3EB11C00E79C05 /* Model */,
+				2C4BC72C1D3EE72600E79C05 /* ViewControllers */,
+				2C4BC7171D3EB0A400E79C05 /* Main.storyboard */,
+				2C4BC7131D3EB0A400E79C05 /* AppDelegate.swift */,
+				2C4BC71A1D3EB0A400E79C05 /* Assets.xcassets */,
+				2C4BC71C1D3EB0A400E79C05 /* LaunchScreen.storyboard */,
+				2C4BC71F1D3EB0A400E79C05 /* Info.plist */,
+			);
+			path = "On The Map";
+			sourceTree = "<group>";
+		};
+		2C4BC7251D3EB11C00E79C05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BC7261D3EB16300E79C05 /* UdacityClientManager.swift */,
+				2C4BC7281D3EB21800E79C05 /* UdacityConstants.swift */,
+				2C0443F41D4040270026298A /* UdacityUser.swift */,
+				2C0443F61D40431F0026298A /* UdacityUsersModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2C4BC72C1D3EE72600E79C05 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BC72D1D3EE75700E79C05 /* LoginViewController.swift */,
+				2C6A2B6A1D418E3700B1C47A /* AddUserToParseViewController.swift */,
+				2C9C297F1D46FB9500279452 /* AddUserToParseDelegate.swift */,
+				2C0443F21D403E8E0026298A /* UsersMapViewController.swift */,
+				2C0443F81D40521F0026298A /* UsersListViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2C4BC72F1D3FEEA800E79C05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C30C72F1D470C6C000ADC52 /* AccountKit.framework */,
+				2C30C7301D470C6C000ADC52 /* Bolts.framework */,
+				2C30C7311D470C6C000ADC52 /* FBSDKShareKit.framework */,
+				2C30C7321D470C6C000ADC52 /* FBSDKCoreKit.framework */,
+				2C30C7331D470C6C000ADC52 /* FBSDKLoginKit.framework */,
+				2C2CC67D1D46C3AE0063B135 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C4BC70F1D3EB0A400E79C05 /* On The Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4BC7221D3EB0A400E79C05 /* Build configuration list for PBXNativeTarget "On The Map" */;
+			buildPhases = (
+				2C4BC70C1D3EB0A400E79C05 /* Sources */,
+				2C4BC70D1D3EB0A400E79C05 /* Frameworks */,
+				2C4BC70E1D3EB0A400E79C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "On The Map";
+			productName = "On The Map";
+			productReference = 2C4BC7101D3EB0A400E79C05 /* On The Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C4BC7081D3EB0A400E79C05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yan Zverev";
+				TargetAttributes = {
+					2C4BC70F1D3EB0A400E79C05 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2C4BC70B1D3EB0A400E79C05 /* Build configuration list for PBXProject "On The Map" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C4BC7071D3EB0A400E79C05;
+			productRefGroup = 2C4BC7111D3EB0A400E79C05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C4BC70F1D3EB0A400E79C05 /* On The Map */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C4BC70E1D3EB0A400E79C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4BC71E1D3EB0A400E79C05 /* LaunchScreen.storyboard in Resources */,
+				2C4BC71B1D3EB0A400E79C05 /* Assets.xcassets in Resources */,
+				2C4BC7191D3EB0A400E79C05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C4BC70C1D3EB0A400E79C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6A2B6B1D418E3700B1C47A /* AddUserToParseViewController.swift in Sources */,
+				2C4BC72E1D3EE75700E79C05 /* LoginViewController.swift in Sources */,
+				2C0443F71D40431F0026298A /* UdacityUsersModel.swift in Sources */,
+				2C9C29801D46FB9500279452 /* AddUserToParseDelegate.swift in Sources */,
+				2C4BC7291D3EB21800E79C05 /* UdacityConstants.swift in Sources */,
+				2C4BC7141D3EB0A400E79C05 /* AppDelegate.swift in Sources */,
+				2C0443F31D403E8E0026298A /* UsersMapViewController.swift in Sources */,
+				2C0443F91D40521F0026298A /* UsersListViewController.swift in Sources */,
+				2C0443F51D4040270026298A /* UdacityUser.swift in Sources */,
+				2C4BC7271D3EB16300E79C05 /* UdacityClientManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C4BC7171D3EB0A400E79C05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C4BC7181D3EB0A400E79C05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C4BC71C1D3EB0A400E79C05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C4BC71D1D3EB0A400E79C05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C4BC7201D3EB0A400E79C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C4BC7211D3EB0A400E79C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C4BC7231D3EB0A400E79C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
+				INFOPLIST_FILE = "On The Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devicefuldevevelopers.On-The-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C4BC7241D3EB0A400E79C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
+				INFOPLIST_FILE = "On The Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devicefuldevevelopers.On-The-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C4BC70B1D3EB0A400E79C05 /* Build configuration list for PBXProject "On The Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4BC7201D3EB0A400E79C05 /* Debug */,
+				2C4BC7211D3EB0A400E79C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4BC7221D3EB0A400E79C05 /* Build configuration list for PBXNativeTarget "On The Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4BC7231D3EB0A400E79C05 /* Debug */,
+				2C4BC7241D3EB0A400E79C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C4BC7081D3EB0A400E79C05 /* Project object */;
+}
