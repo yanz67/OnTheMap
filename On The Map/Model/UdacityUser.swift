@@ -28,16 +28,48 @@ struct UdacityUser
     var objectID: String
     var uniqueKey: String
     
-    init(userInformation: [String:AnyObject])
+    init?(userInformation: [String:AnyObject])
     {
-        firstName = userInformation[ParseUserInfoKeys.FirstName] as! String
-        lastName = userInformation[ParseUserInfoKeys.LastName] as! String
-        latitude = userInformation[ParseUserInfoKeys.Latitude] as! Double
-        longitude = userInformation[ParseUserInfoKeys.Longitude] as! Double
-        mapString = userInformation[ParseUserInfoKeys.MapString] as! String
-        mediaURL = userInformation[ParseUserInfoKeys.MediaURL] as! String
-        objectID = userInformation[ParseUserInfoKeys.ObjectID] as! String
-        uniqueKey = userInformation[ParseUserInfoKeys.UniqueKey] as! String
+        guard let firstName = userInformation[ParseUserInfoKeys.FirstName] as? String else {
+            return nil
+        }
+        self.firstName = firstName
+        
+        guard let lastName = userInformation[ParseUserInfoKeys.LastName] as? String else {
+            return nil
+        }
+        self.lastName = lastName
+        
+        guard let latitude = userInformation[ParseUserInfoKeys.Latitude] as? Double else {
+            return nil
+        }
+        self.latitude = latitude
+        
+        guard let longitude = userInformation[ParseUserInfoKeys.Longitude] as? Double else {
+            return nil
+        }
+        self.longitude = longitude
+        
+        guard let mapString = userInformation[ParseUserInfoKeys.MapString] as? String else {
+            return nil
+        }
+        self.mapString = mapString
+        
+        guard let mediaURL = userInformation[ParseUserInfoKeys.MediaURL] as? String else {
+            return nil
+        }
+        self.mediaURL = mediaURL
+        
+        guard let objectID = userInformation[ParseUserInfoKeys.ObjectID] as? String else {
+            return nil
+        }
+        self.objectID = objectID
+        
+        guard let uniqueKey = userInformation[ParseUserInfoKeys.UniqueKey] as? String else {
+            return nil
+        }
+        self.uniqueKey = uniqueKey
+
     }
     
    

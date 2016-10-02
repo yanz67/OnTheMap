@@ -30,7 +30,10 @@ class UdacityUsersModel: NSObject
                 return
             }
             for user in usersInfoArray {
-                let udacityUser = UdacityUser(userInformation: user)
+                guard let udacityUser = UdacityUser(userInformation: user) else {
+                    continue
+                }
+                
                 self.udacityUsers.append(udacityUser)
             }
             completionHandlerForLoadUsersData(success: true, error: nil)
